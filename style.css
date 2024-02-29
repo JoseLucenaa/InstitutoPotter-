@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pompiere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pompiere&family=Righteous&display=swap');
+@import url('https://fonts.cdnfonts.com/css/magic-school-one-2');
+@import url('https://fonts.cdnfonts.com/css/wizard-world');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pompiere&family=Righteous&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+body{
+    color: #bfbfbf;
+    background-color: black;
+    font-family: "Wizard World", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 83px;
+    background: #242633;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 5;
+}
+header img{
+    width: 90px;
+    height: 90px;
+}
+nav a{
+    color: rgb(243, 243, 243);
+    width: 15px;
+    padding: 20px;
+    transition: .5s;
+}
+header nav a:hover{
+    border-bottom: 1px solid rgb(255, 137, 69);
+}
+
+#inicio{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 4vw;
+}
+#inicio h1, h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragrafo{
+    margin-bottom: 32px;
+}
+
+.botao{
+    display: flex;
+    margin-top: 5vh;
+    gap: 20px;
+}
+.botao a{
+    background: transparent;
+    color: white;
+    padding: 13px 30px;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 137, 69);
+    transition: .5s;
+    
+}
+
+.botao a:hover{
+    transform: translateY(-2px);
+    background-color: rgb(255, 137, 69);
+}
+
+
+#farmacia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 80px;
+}
+#farmacia p{
+    max-width: 60vw;
+    padding: 2vw;
+    text-align: center;
+}
+
+#farmacia .paragrafo{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#duvidas{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    gap: 80px;
+}
+.duvida{
+    position: relative;
+}
+.duvida.ativa p{
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+}
+.duvida h3{
+    font-size: 100%;
+    border: 2px solid rgba(255, 162, 109, 0.507);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+.duvida img{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+    cursor: pointer;
+}
+
+#image-main{
+    width: 420px;
+    height: 420px;
+    border-radius: 60px;
+}
+.duvida p{
+    border-right: 1px solid rgba(255, 137, 69, 0.507);
+    border-bottom: 1px solid rgba(255, 137, 69, 0.507);
+    border-left: 1px solid rgba(255, 137, 69, 0.507);
+    border-radius: 0 0 8px 8px;
+    padding: 0 24px;
+    margin-top: -8px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+footer{
+    background-color: #10141b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    padding: 40px 50px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+footer .cont-footer{
+    width: 100%;
+    height: 460px;
+    padding: 50px;
+    color: #7575759e;
+    border: 1px solid rgb(123, 123, 123);
+    position: relative;
+    bottom: 40px;
+}
+footer .cont-footer .links-footer{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 120px;
+    padding: 0px 0px 12px;
+    gap: 5px;
+}
+
+footer button{
+    font-size: 20px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: #242633;
+    transition: .5s;
+}
+footer button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 137, 69, 0.763);
+}
+
+
+footer .cont-footer img{
+    width: 200px;
+    height: 200px;
+}
+footer .cont-footer .upper-footer{
+    width: 100%;
+    height: 120px;
+    padding: 0px 0px 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-divider hr{
+    color: #3536436e;
+    width: 100%;
+    margin: 5px 0px;
+}
+
+.copy p{
+    margin: 45px 0px;
+}
+
+.lower-footer p{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    padding: 0px 0px 12px;
+    gap: 5px;
+    margin-bottom: 15px; 
+    color: #9fa1ad;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    header{
+        justify-content: center;
+        position: absolute;
+    }
+    header nav{
+        display: none;
+    }
+    header img{
+        width: 150px;
+        height: 150px;
+        padding: 10%;
+    }
+    main #inicio{
+        flex-direction: column;
+        padding: 10vw;
+    }
+    main #inicio img{
+        width: 100%;
+        bottom: 0;
+    }
+    main #inicio #main{
+        width: 100%;
+        height: fit-content;
+        margin-top: 7vh;
+    }
+    main #inicio h1{
+        font-size: 8vw;
+        line-height: 5vh;
+        margin-bottom: 2vh;
+    }
+    main #inicio .buttons a{
+        font-size: 3vw;
+        border-radius: 8px;
+    }
+
+    main #clinica{
+        flex-direction: column;
+        gap: 0;
+        padding: 10vw;
+    }
+    main #clinica h2{
+        font-size: 8vw;
+        line-height: 5.5vh;
+        max-width: 80%;
+        margin: 0 0 3% 0
+    }
+    main #clinica li{
+        font-size: 4vw;
+    }
+    main #clinica img{
+        width: 100%;
+        margin-top: -12vh;
+    }
+
+    main #farmacia{
+        height: 60vh;
+        padding: 10vw;
+        margin-top: -12vh;
+        justify-content: space-evenly;
+    }
+    main #farmacia img{
+        width: 100%;
+    }
+    main #farmacia p{
+        display: none;
+    }
+
+    main #duvidas{
+        padding: 10vw;
+        margin-top: -5vh;
+        flex-direction: column-reverse;
+        
+    }
+    main #duvidas #image-main{
+        display: none;
+    }
+    main #duvidas h2{
+        font-size: 100%;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+    .duvida h3{
+        font-size: 3vw;
+        border: 2px solid rgba(200, 126, 82, 0.641);
+        border-radius: 8px;
+        cursor: pointer;
+        padding: 15px;
+    }
+    .duvida.ativa p{
+        font-size: 3vw;
+    }
+
+    footer h2{
+        font-size: 2vw;
+    }
+    footer .cont-footer{
+        flex-direction: column;
+        padding: 10px;
+        height: 450px;
+        position: relative;
+        bottom: 0;
+    }
+    footer .upper-footer{
+        flex-direction: column;
+        width: 100%;
+        height: 40px;
+    }
+    footer .upper-footer img{
+        width: 75px;
+        height: 75px;
+    }
+    footer .links-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer button{
+        font-size: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    footer .lower-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .copy{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .copy p{
+        margin: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: right;
+        padding: 20px;
+    }
+
+    .text p{
+        text-align: left;
+        width: 100%;
+        height: 100px;
+        margin: 0;
+        padding: 0;
+    }
+    footer nav{
+        display: none;
+    }
+}

@@ -60,6 +60,11 @@ header nav a:hover{
     margin-bottom: 32px;
 }
 
+#pagebaixo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
 .paragrafo{
     margin-bottom: 32px;
 }

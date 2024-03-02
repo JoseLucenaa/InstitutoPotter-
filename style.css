@@ -53,6 +53,7 @@ header nav a:hover{
     background-image: url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
     background-image: url(/img/stars.png), linear-gradient(180deg, #15111d, #323657 121.35%);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #inicio h1, h2{
     font-weight: 600;
@@ -111,10 +112,11 @@ header nav a:hover{
     align-items: center;
     padding: 80px;
     gap: 80px;
-    background-image: url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
+    bbackground-image: url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
     background-image: url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
     background-image: url(/img/stars.png), linear-gradient(180deg, #15111d, #323657 121.35%);
     background-size: cover;
+    background-repeat: no-repeat;
     border-image: fill 0 linear-gradient(black);
     background-size: contain;
 }

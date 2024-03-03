@@ -316,9 +316,17 @@ body::-webkit-scrollbar-thumb {
     main #about{
         flex-direction: column;
         padding: 10vw;
+        background-image: url(img/horizons_mobile_village\ \(1\).png), url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
+        background-image: url(img/horizons_mobile_village\ \(1\).png), url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
+        background-image: url(img/horizons_mobile_village\ \(1\).png), url(/img/stars.png), linear-gradient(180deg, #050017, #323657);
+        border-image: fill 0 linear-gradient(180deg, #050017da, #0001);
+        background-size: 120vw;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
-    main #about img{
+    #about img{
         margin: 0;
+        padding: 0;
         width: 100%;
         bottom: 0;
     }
@@ -339,6 +347,7 @@ body::-webkit-scrollbar-thumb {
     }
     main #about p{
         font-size: 20px;
+        margin-bottom: 150px;
     }
     main #about .buttons a{
         font-size: 3vw;

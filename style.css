@@ -285,59 +285,36 @@ footer .cont-footer .upper-footer{
         flex-direction: column;
         padding: 10vw;
     }
-    main #inicio{
+    main #about{
         flex-direction: column;
         padding: 10vw;
     }
-    main #inicio img{
+    main #about img{
+        margin: 0;
         width: 100%;
         bottom: 0;
     }
-    main #inicio #main{
+    main #about #main{
         width: 100%;
         height: fit-content;
         margin-top: 7vh;
     }
-    main #inicio h1{
+
+    main #main img{
+        margin: 0;
+    }
+
+    main #about h1{
         font-size: 8vw;
         line-height: 5vh;
         margin-bottom: 2vh;
     }
-    main #inicio .buttons a{
+    main #about p{
+        font-size: 20px;
+    }
+    main #about .buttons a{
         font-size: 3vw;
         border-radius: 8px;
-    }
-
-    main #clinica{
-        flex-direction: column;
-        gap: 0;
-        padding: 10vw;
-    }
-    main #clinica h2{
-        font-size: 8vw;
-        line-height: 5.5vh;
-        max-width: 80%;
-        margin: 0 0 3% 0
-    }
-    main #clinica li{
-        font-size: 4vw;
-    }
-    main #clinica img{
-        width: 100%;
-        margin-top: -12vh;
-    }
-
-    main #farmacia{
-        height: 60vh;
-        padding: 10vw;
-        margin-top: -12vh;
-        justify-content: space-evenly;
-    }
-    main #farmacia img{
-        width: 100%;
-    }
-    main #farmacia p{
-        display: none;
     }
 
     main #duvidas{

@@ -3,6 +3,11 @@
 @import url('https://fonts.cdnfonts.com/css/magic-school-one-2');
 @import url('https://fonts.cdnfonts.com/css/wizard-world');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pompiere&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/counter-flipper');
+@import url('https://fonts.cdnfonts.com/css/freebooter');
+
 
 *{
     box-sizing: border-box;
@@ -23,6 +28,7 @@ header{
     width: 100%;
     height: 83px;
     background: #242633;
+    font-family: "Outfit", sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -42,8 +48,56 @@ nav a{
 header nav a:hover{
     border-bottom: 1px solid rgb(255, 137, 69);
 }
+#prims{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 4vw;
+    background-image: url(/img/fundoron.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-image: fill 0 linear-gradient(180deg, #0001, #323657);
+}
 
-#inicio{
+#prims aside{
+    font-size: 80px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Freebooter', sans-serif;
+}
+
+#prims aside button{
+    border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    background: transparent;
+    width: 170px;
+    padding: 20px;
+    color: azure;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+#prims aside button:hover{
+    background-color: white;
+    color: #323657;
+
+}
+
+#prims article{
+    width: 25%;
+}
+
+
+#about{
     position: relative;
     display: flex;
     align-items: center;
@@ -51,62 +105,20 @@ header nav a:hover{
     padding: 4vw;
     background-image: url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
     background-image: url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
-    background-image: url(/img/stars.png), linear-gradient(180deg, #15111d, #323657 121.35%);
+    background-image: url(/img/stars.png), linear-gradient(180deg, #323657, #15111d);
+    /* border-image: fill 0 linear-gradient(180deg, #323657, #15111d); */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
-#inicio h1, h2{
+#about h1, h2{
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
 }
 
-#pagebaixo{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
 .paragrafo{
     margin-bottom: 32px;
-}
-
-.botao{
-    display: flex;
-    margin-top: 5vh;
-    gap: 20px;
-}
-.botao a{
-    background: transparent;
-    color: white;
-    padding: 13px 30px;
-    border-radius: 50px;
-    border: 2px solid rgb(255, 137, 69);
-    transition: .5s;
-    
-}
-
-.botao a:hover{
-    transform: translateY(-2px);
-    background-color: rgb(255, 137, 69);
-}
-
-
-#farmacia{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 64px 80px;
-    
-}
-#farmacia p{
-    max-width: 60vw;
-    padding: 2vw;
-    text-align: center;
-}
-
-#farmacia .paragrafo{
-    max-width: 950px;
-    margin: 0 auto;
 }
 
 #duvidas{
@@ -118,11 +130,11 @@ header nav a:hover{
     gap: 80px;
     background: --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
     background: --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
-    background: linear-gradient(180deg, #15111d, #323657 121.35%);
+    background: linear-gradient(180deg, #15111d, #15111d 121.35%);
+    border-image: fill 0 linear-gradient(180deg,#15111d);
     background-size: cover;
     background-repeat: no-repeat;
-    border-image: fill 0 linear-gradient(black);
-    background-size: contain;
+    background-size: cover;
 }
 
 
@@ -228,6 +240,14 @@ footer .cont-footer .upper-footer{
         width: 150px;
         height: 150px;
         padding: 10%;
+    }
+    main #prims{
+        background-image: url(/img/hp-f7-ron-tent-homepage-mobile-hero.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        flex-direction: column;
+        padding: 10vw;
     }
     main #inicio{
         flex-direction: column;

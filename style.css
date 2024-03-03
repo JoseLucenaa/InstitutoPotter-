@@ -179,6 +179,13 @@ header nav a:hover{
 
 }
 
+#duvidas aside p{
+    font-size: 30px;
+    margin: 30px;
+    width: 100%;
+    text-align: center;
+}
+
 #image-main{
     width: 420px;
     height: 420px;

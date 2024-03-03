@@ -61,7 +61,7 @@ header nav a:hover{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    border-image: fill 0 linear-gradient(180deg, #0001, #323657);
+    border-image: fill 0 linear-gradient(180deg, #0001, #050017);
 }
 
 #prims aside{
@@ -107,12 +107,13 @@ header nav a:hover{
     align-items: center;
     gap: 32px;
     padding: 4vw;
-    background-image: url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
-    background-image: url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
-    background-image: url(/img/stars.png), linear-gradient(180deg, #323657, #15111d);
-    /* border-image: fill 0 linear-gradient(180deg, #323657, #15111d); */
-    background-size: cover;
+    background-image: url(img/horizons_train.png), url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
+    background-image: url(img/horizons_train.png), url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
+    background-image: url(img/horizons_train.png), url(/img/stars.png), linear-gradient(180deg, #050017, #323657);
+    border-image: fill 0 linear-gradient(180deg, #050017da, #0001);
+    background-size: 140vw;
     background-repeat: no-repeat;
+    background-position: bottom;
 }
 #about h1, h2{
     font-weight: 600;
@@ -139,8 +140,8 @@ header nav a:hover{
     gap: 80px;
     background: --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
     background: --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
-    background: linear-gradient(180deg, #15111d, #15111d 121.35%);
-    border-image: fill 0 linear-gradient(180deg,#15111d);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.067), #15111d 121.35%);
+    border-image: fill 0 linear-gradient(180deg, #110b0e, #000000);
     background-size: cover;
     background-repeat: no-repeat;
 }

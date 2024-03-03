@@ -264,7 +264,7 @@ footer .cont-footer .upper-footer{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     header{
         justify-content: center;
         position: absolute;
@@ -278,10 +278,14 @@ footer .cont-footer .upper-footer{
         padding: 10%;
     }
     main #prims{
-        background-image: url(/img/hp-f7-ron-tent-homepage-mobile-hero.jpg);
-        background-size: cover;
+        width: 100vw;
+        background: #323657;
+        color: white;
+        background-image: url(/img/imgfundo.jpg);
         background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
+        border-image: fill 0 linear-gradient(180deg,#15111d);
         flex-direction: column;
         padding: 10vw;
     }

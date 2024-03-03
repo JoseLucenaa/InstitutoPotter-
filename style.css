@@ -108,7 +108,6 @@ header nav a:hover{
     background-image: url(/img/stars.png), linear-gradient(180deg, #323657, #15111d);
     /* border-image: fill 0 linear-gradient(180deg, #323657, #15111d); */
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
 }
 #about h1, h2{
@@ -126,6 +125,7 @@ header nav a:hover{
     min-height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 80px;
     gap: 80px;
     background: --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
@@ -134,9 +134,35 @@ header nav a:hover{
     border-image: fill 0 linear-gradient(180deg,#15111d);
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
+#duvidas aside{
+    font-size: 80px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Freebooter', sans-serif;
+}
+
+#duvidas aside button{
+    border: 1px solid white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50px;
+    background: transparent;
+    width: 170px;
+    padding: 20px;
+    color: azure;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+#duvidas aside button:hover{
+    background-color: white;
+    color: #323657;
+
+}
 
 #image-main{
     width: 420px;
@@ -145,7 +171,7 @@ header nav a:hover{
 }
 
 footer{
-    background-color: #10141b;
+    background-color: #242633;
     display: flex;
     justify-content: center;
     align-items: center;

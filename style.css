@@ -323,6 +323,7 @@ body::-webkit-scrollbar-thumb {
         background-size: 120vw;
         background-repeat: no-repeat;
         background-position: bottom;
+        text-align: center;
     }
     #about img{
         margin: 0;

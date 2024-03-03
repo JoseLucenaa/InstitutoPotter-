@@ -74,6 +74,12 @@ header nav a:hover{
     font-family: 'Freebooter', sans-serif;
 }
 
+/* #prims aside p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+} */
+
+
 #prims aside button{
     border: 1px solid white;
     font-family: 'Montserrat', sans-serif;
@@ -89,6 +95,7 @@ header nav a:hover{
 #prims aside button:hover{
     background-color: white;
     color: #323657;
+    box-shadow: 0px 10px 40px -12px #ffffff;
 
 }
 
@@ -161,6 +168,7 @@ header nav a:hover{
 #duvidas aside button:hover{
     background-color: white;
     color: #323657;
+    box-shadow: 0px 10px 40px -12px #ffffff;
 
 }
 

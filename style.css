@@ -64,7 +64,9 @@ header nav a:hover{
     background-repeat: no-repeat;
     border-image: fill 0 linear-gradient(180deg, #0001, #050017);
 }
-
+#prims{
+    font-weight: 300;
+}
 #prims aside{
     font-size: 80px;
     width: 75%;

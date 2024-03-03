@@ -107,9 +107,9 @@ header nav a:hover{
     align-items: center;
     gap: 32px;
     padding: 4vw;
-    background-image: url(img/horizons_train.png), url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
-    background-image: url(img/horizons_train.png), url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
-    background-image: url(img/horizons_train.png), url(/img/stars.png), linear-gradient(180deg, #050017, #323657);
+    background-image: url(img/horizons_village\ \(2\).png), url(/img/stars.png), --webkit-gradient(linear, left top, left bottom, from(#15111d), color-stop(121.35%, #323657));
+    background-image: url(img/horizons_village\ \(2\).png), url(/img/stars.png), --moz-linear-gradient(top, #15111d 0, #323657 121.35%);
+    background-image: url(img/horizons_village\ \(2\).png), url(/img/stars.png), linear-gradient(180deg, #050017, #323657);
     border-image: fill 0 linear-gradient(180deg, #050017da, #0001);
     background-size: 140vw;
     background-repeat: no-repeat;

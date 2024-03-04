@@ -342,7 +342,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     main #about h1{
-        font-size: 8vw;
+        font-size: 4vw;
         line-height: 5vh;
         margin-bottom: 2vh;
     }
